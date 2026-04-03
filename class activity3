@@ -1,0 +1,13 @@
+h = input("Enter the mark for hindi")
+e = input("Enter the mark for english")
+m = input("Enter the mark for maths")
+s = input("Enter the mark for science")
+h = int(h)
+e = int(e)
+m = int(m)
+s = int(s)
+sum =h+e+m+s
+print(sum)
+sum=int(sum)
+perc=(sum/400)*100
+print(perc)
