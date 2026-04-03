@@ -8,7 +8,7 @@ notes100=amount//100
 notes200=amount//200
 notes500=amount//500
 notes1000=amount//1000
-print("(please note this uses the ruppe system of currency) the number of notes of 10 is",notes10,
+print("(please note this uses the ruppee system of currency) the number of notes of 10 is",notes10,
       "the number of notes of 20 is",notes20,"the number of notes of 50 is",notes50,
       "the number of notes of 100 is",notes100,"the number of notes of 200 is",notes200
       ,"the number of notes of 500 is",notes500,"the number of notes of 1000 is",notes1000,
