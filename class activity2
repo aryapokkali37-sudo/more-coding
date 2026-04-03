@@ -1,0 +1,15 @@
+amount=input("the amount of money")
+amount=int(amount)
+notes1=amount%1
+notes10=amount//10
+notes20=amount//20
+notes50=amount//50
+notes100=amount//100
+notes200=amount//200
+notes500=amount//500
+notes1000=amount//1000
+print("(please note this uses the ruppe system of currency) the number of notes of 10 is",notes10,
+      "the number of notes of 20 is",notes20,"the number of notes of 50 is",notes50,
+      "the number of notes of 100 is",notes100,"the number of notes of 200 is",notes200
+      ,"the number of notes of 500 is",notes500,"the number of notes of 1000 is",notes1000,
+      "the remainder (if any) is",notes1)
