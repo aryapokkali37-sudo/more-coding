@@ -6,7 +6,10 @@ h = int(h)
 e = int(e)
 m = int(m)
 s = int(s)
-sum =h+e+m+s
+if  h<0 or e<0 or m<0 or s<0:
+    print("Invalid input. Please enter marks between 0 and 100.")
+else:
+    sum = h + e + m + s
 print(sum)
 sum=int(sum)
 perc=(sum/400)*100
