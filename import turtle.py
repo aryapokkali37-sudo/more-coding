@@ -1,0 +1,12 @@
+import turtle
+turtle.speed(1000)
+turtle.bgcolor("black") 
+turtle.color("cyan")
+turtle.forward(500)
+turtle.left(-90)
+turtle.forward(500)
+turtle.left(-90)
+turtle.forward(500)
+turtle.left(-90)
+turtle.forward(500)
+turtle.done()

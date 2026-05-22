@@ -1,7 +1,6 @@
-listist=["q","w","e","r","t","y","u","i","o","p","a","s","d","f","g","h","j","k","l","z","x","c","b","n","m"]
 while True:
     print("the code calculator™")
-    ope=input("chose an operator\n+\n-\n*\n/\n^\nv")
+    ope=input("chose an operator\n+\n-\n*\n/\n^\n√")
     if ope in listist:
         print("this is invalid please enter again")
     elif ope.isdigit():
@@ -34,7 +33,7 @@ while True:
         num2 = float(input("second number(power)"))
         print(num1 ** num2)
         break 
-    elif ope == "v":
+    elif ope == "√":
        num1 = float(input("number"))
        import math
        print((math.sqrt(num1)))
